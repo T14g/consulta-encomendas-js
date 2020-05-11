@@ -1,0 +1,32 @@
+/*------------------*
+# Base
+*------------------*/
+
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+    overflow-y: scroll;
+    min-height: 100%;
+    word-wrap: break-word;
+}
+
+* {
+    &,
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
+
+body {
+    align-items: stretch;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+

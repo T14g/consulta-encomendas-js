@@ -1,0 +1,13 @@
+// Normalise
+@import "./vendor/normalise";
+
+// Base
+@import "./base/variables";
+@import "./base/base";
+
+
+// Components
+@import "./components/main-content";
+
+//Pages
+@import "./pages/home.scss";

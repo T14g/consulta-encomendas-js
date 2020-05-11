@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="./images/logo.png" alt="Consulta encomendas">
+        </div>
+
+        <div class="search-box">
+            
+            <h2 class="title">Consulte sua encomenda:</h2>
+            
+            <form class="form" action="">
+                <div class="input-wrapper">
+                    <input type="text" class="codigo" name="codigo" id="codigo" placeholder="Digite o número do pedido">
+                    <button id="buscar">
+                        <img src="./images/lupa.png" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+{% endblock %}
